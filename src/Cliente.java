@@ -46,12 +46,11 @@ public class Cliente {
                 this.setFoneCliente(foneCliente);
             }
 
-    public void mostrarCliente(){
-        System.out.println("Nome: "+this.getNomeCliente());
-        System.out.println("Codigo: "+this.getCodCliente());
-        System.out.println("Email: "+this.getEmailCliente());
-        System.out.println("Telefone: "+this.getFoneCliente());
+    @Override
+    public String toString() {
+        return  "\nNome: " + nomeCliente +
+                "\nCodigo cliente: " + this.codCliente +
+                "\nEmail cliente: " + this.emailCliente +
+                "\nTelefone cliente: " + this.foneCliente;
     }
-
-
 }

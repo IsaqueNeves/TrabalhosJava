@@ -1,12 +1,11 @@
+import java.time.LocalDateTime;
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args){
+    Scanner scanner = new Scanner(System.in);
 
-            Cliente cliente = new Cliente("Isaque Neves", "123456789", "isaquebarrosoneves@gmail"
-            , "+55 31 9 9999-9999");
-
-            cliente.mostrarCliente();
-
-
+    Menus.menuPrincipal();
 
 
 
