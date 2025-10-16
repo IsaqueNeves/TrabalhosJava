@@ -1,0 +1,27 @@
+requerimentos do projeto-----
+
+Tipo da conta:
+    conta poupanca= CP (Ja inicia a conta com R$ 150)
+    conta corrente= CP (Ja inicia conta com R$ 50)
+
+abrirConta() =>
+      muda o `status` para True - na hora de abrir conta ele deve selecionar entre
+      conta pouopanca e conta corrente.
+
+fecharConta() =>
+       para fechar conta e necessario que o usuario essteja sem valor no saldo nem
+       devendo
+
+sacar() =>
+        nao pode sacar mais que o valor presente em saldo.
+
+
+metodo construtor ==>
+        toda conta inicia com slado em 0
+        e status falso
+
+##
+fazer geter e seter para todos os atribitos e metodos
+
+
+
